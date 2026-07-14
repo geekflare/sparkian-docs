@@ -6,7 +6,7 @@ instances:
     edit-this-page:
       github:
         owner: fern-starter
-        repo: sparkian-c3wbfl26
+        repo: sparkian-docs
         branch: main
       launch: dashboard
 title: Sparkian | Documentation
