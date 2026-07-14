@@ -9,7 +9,7 @@ instances:
         repo: sparkian-docs
         branch: main
       launch: dashboard
-title: Sparkian | Documentation
+title: Sparkian Documentation
 layout:
   searchbar-placement: header
   page-width: full
@@ -66,7 +66,7 @@ logo:
   light: docs/assets/logo-light.svg
   height: 20
   href: https://buildwithfern.com
-favicon: docs/assets/favicon.svg
+favicon: Logo transparent-04.png
 css:
   - styles.css
   - docs/assets/onboarding-theme.css
