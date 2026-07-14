@@ -9,10 +9,10 @@ instances:
         repo: sparkian-docs
         branch: main
       launch: dashboard
-title: Sparkian Documentation
+title: Sparkian Docs
 layout:
   searchbar-placement: header
-  page-width: full
+  page-width: padded
   tabs-placement: header
 tabs:
   home:
