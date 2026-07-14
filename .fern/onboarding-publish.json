@@ -1,0 +1,10 @@
+{
+  "desiredContentHash": "c93ecb3a6d5bcde8851476ea48bfd4ae03a3988c209707bc89ca967481e007ca",
+  "docsUrl": "https://sparkian.docs.buildwithfern.com",
+  "starter": {
+    "repoOwner": "fern-api",
+    "repoName": "docs-starter-internal",
+    "commitSha": "abf6de6e5327dbde36a53464b5f01fad8162fc14",
+    "label": "2026-06-30-vendor-onboarding-layouts"
+  }
+}
