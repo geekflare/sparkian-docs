@@ -1,0 +1,22 @@
+---
+title: Long context notice
+subtitle: Why Sparkian warns you about long conversations.
+slug: long-context-notice
+---
+
+As a conversation grows, Sparkian has to resend the entire chat history with every new message so the AI can keep track of the conversation. The **long context notice** is a banner that appears once a conversation gets long enough that this starts costing you noticeably more Sparks.
+
+## Why longer chats cost more
+
+Every reply requires the AI to read and process the full conversation so far, not just your latest message. The more messages accumulate, the more text has to be processed for each new reply which increases the compute (and Spark) cost per message.
+
+## When the notice appears
+
+Standard pricing covers conversations up to **10,000 tokens** (roughly 7,500 words). Once a conversation crosses that threshold, additional Sparks are charged to cover the extra processing. See [Sparks (credit system)](/sparks) for the multiplier formula.
+
+## How to reduce the cost
+
+- **Start a fresh chat** when you switch topics, instead of continuing an old thread.
+- **Keep threads focused** - move to a new chat once a task is done rather than letting one conversation sprawl.
+- **Lower your chat memory** - reduce how many previous messages are retained in [Chat Settings](/memory-and-context) (default is 10).
+- **Enable Compact Context mode** - a Chat Settings option that summarizes older messages to preserve context while using fewer tokens.

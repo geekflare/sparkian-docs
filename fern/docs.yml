@@ -26,32 +26,42 @@ navigation:
           - page: Welcome
             path: docs/pages/welcome.mdx
             icon: fa-solid fa-house
-          - page: Edit your docs
-            path: docs/pages/editing-your-docs.mdx
-            icon: fa-solid fa-pen-to-square
-          - page: Manage your docs
-            path: docs/pages/dashboard.mdx
-            icon: fa-regular fa-gauge
-          - page: Use components
-            path: docs/pages/components.mdx
-            icon: fa-solid fa-cubes
-          - page: Developer guide
-            path: docs/pages/developer-guide.mdx
-            icon: fa-solid fa-code
           - page: Support
             path: docs/pages/support.mdx
             icon: fa-solid fa-headset
+      - section: Billing
+        contents:
+          - page: Payment methods
+            path: docs/pages/billing/payment-methods.mdx
+            icon: fa-solid fa-credit-card
+          - page: Sparks (credit system)
+            path: docs/pages/billing/sparks.mdx
+            icon: fa-solid fa-bolt
+      - section: Chat
+        contents:
+          - page: Supported file types
+            path: docs/pages/chat/supported-file-types.mdx
+            icon: fa-solid fa-paperclip
+          - page: Memory and context
+            path: docs/pages/chat/memory-and-context.mdx
+            icon: fa-solid fa-brain
+          - page: Copy and export
+            path: docs/pages/chat/copy-export.mdx
+            icon: fa-solid fa-copy
+          - page: Long context notice
+            path: docs/pages/chat/long-context-notice.mdx
+            icon: fa-solid fa-triangle-exclamation
       - section: Changelog
         contents:
           - changelog: docs/changelog
 navbar-links:
   - type: filled
-    text: Edit
-    url: https://dashboard.buildwithfern.com
+    text: Login
+    href: https://sparkian.com
 colors:
   accent-primary:
     light: "#FF5A1F"
-    dark: "#4ADE80"
+    dark: "#FF5A1F"
   background:
     light: "#FFFFFF"
     dark: "#111113"
@@ -62,11 +72,20 @@ theme:
   page-actions: toolbar
   footer-nav: minimal
 logo:
-  dark: docs/assets/logo-light.svg
+  dark: docs/assets/logo-dark.svg
   light: docs/assets/logo-light.svg
-  height: 20
-  href: https://buildwithfern.com
-favicon: Logo transparent-04.png
+  height: 25
+  href: https://docs.sparkian.com/
+favicon: favicon.png
+metadata:
+  og:site_name: Sparkian
+  og:title: Sparkian Docs
+  og:url: https://sparkian.com
+  og:image: https://cdn.sparkian.com/sparkian-sm.jpg
+  twitter:card: summary_large_image
+  twitter:site: "@SparkianAI"
+  twitter:handle: "@SparkianAI"
+  twitter:image: https://cdn.sparkian.com/sparkian-sm.jpg
 css:
   - styles.css
   - docs/assets/onboarding-theme.css

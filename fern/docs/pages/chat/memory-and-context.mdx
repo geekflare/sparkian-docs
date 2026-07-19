@@ -1,0 +1,23 @@
+---
+title: Memory and context
+subtitle: How Sparkian keeps track of your conversation.
+slug: memory-and-context
+---
+
+AI models don't retain memory between requests on their own. So, with every new message, Sparkian sends along your recent conversation history to keep the reply relevant to what you've already discussed. How much history is included depends on your chat settings and the model's context window.
+
+## Default retention
+
+By default, Sparkian includes the **previous 10 messages** with every request. This balances continuity with cost — enough context to keep the conversation coherent, without pulling in more than necessary.
+
+## Customizing memory
+
+You can adjust how many prior messages are retained from **Chat Settings**, anywhere from **0 to 50 messages**.
+
+<Note>
+Retaining more messages improves continuity but increases the token count of every request, which can raise the Spark cost per message. See [Sparks (credit system)](/sparks).
+</Note>
+
+## Long conversations
+
+Once an active conversation reaches around **20,000 tokens**, Sparkian shows a notice banner to warn you before costs increase further. Learn more in the [Long context notice](/long-context-notice) guide.

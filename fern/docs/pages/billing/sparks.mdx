@@ -1,0 +1,50 @@
+---
+title: Sparks (credit system)
+subtitle: How Sparkian's credit-based pricing works.
+slug: sparks
+---
+
+Every Sparkian account runs on **Sparks**. It is a credit balance that gets deducted with every message you send, instead of billing you by raw token count. This keeps usage predictable, since the cost of a request depends on the model and content you use rather than an opaque per-token rate.
+
+<Note>
+The exact Spark cost for each model is shown live on that model's detail panel inside Sparkian, so you always know the price before you send a message.
+</Note>
+
+<Frame caption="Sparks">
+  <img src="https://cdn.sparkian.com/docs/sparks-model-details.png" alt="Sparks"/>
+</Frame>
+
+## How Sparks are deducted
+
+Each request is priced by **model tier**, and the listed cost covers up to **10,000 tokens**. This includes your message, the AI's response, any retained chat history, and attachments, all combined.
+
+## When requests exceed 10,000 tokens
+
+If a request's total token count goes over the 10,000-token baseline, a multiplier is applied to the base cost:
+
+```
+multiplier = (total tokens / 10,000)
+```
+
+**Examples:**
+
+- A Lite model request under 10K tokens → **2 Spark**
+- An Advanced model request with 25,000 tokens of chat history → 15 × 3 = **45 Sparks**
+- A large file attached to a Lite model request totaling 40,000 tokens → 2 × 8 = **4 Sparks**
+
+## Knowledge Base fee
+
+Chatting with files through a Data Source (Knowledge Base) adds a flat **+5 Sparks** per request, on top of the base model cost.
+
+## Tips to reduce Spark usage
+
+- Start a fresh chat when switching topics. Older messages in [chat history](/memory-and-context) count toward your token total.
+- Pick the lightest model tier that can handle the task.
+- Upload files you reuse often to a Knowledge Base instead of re-attaching them to every message.
+- Combine related questions into a single message rather than sending several small ones.
+
+## Related
+
+- [Supported file types](/supported-file-types)
+- [Memory and context](/memory-and-context)
+- [Long context notice](/long-context-notice)
