@@ -29,6 +29,16 @@ navigation:
           - page: Support
             path: docs/pages/support.mdx
             icon: fa-solid fa-headset
+      - section: Workspaces
+        contents:
+          - page: Workspaces
+            path: docs/pages/workspaces/overview.mdx
+            icon: fa-solid fa-building
+      - section: Projects
+        contents:
+          - page: Projects
+            path: docs/pages/projects/overview.mdx
+            icon: fa-solid fa-cube
       - section: Billing
         contents:
           - page: Payment methods
@@ -39,6 +49,33 @@ navigation:
             icon: fa-solid fa-bolt
       - section: Chat
         contents:
+          - page: Multi-model chat
+            path: docs/pages/chat/multi-model-chat.mdx
+            icon: fa-solid fa-table-columns
+          - page: Chat branching
+            path: docs/pages/chat/chat-branching.mdx
+            icon: fa-solid fa-code-branch
+          - page: Chat response actions
+            path: docs/pages/chat/chat-response-actions.mdx
+            icon: fa-solid fa-message
+          - page: Sharing a chat
+            path: docs/pages/chat/share-a-chat.mdx
+            icon: fa-solid fa-share-nodes
+          - page: Searching chats
+            path: docs/pages/chat/search-chats.mdx
+            icon: fa-solid fa-magnifying-glass
+          - page: Deleting messages and chats
+            path: docs/pages/chat/delete-messages-and-chats.mdx
+            icon: fa-solid fa-trash
+          - page: Web search and URL read
+            path: docs/pages/chat/web-search-and-url-read.mdx
+            icon: fa-solid fa-globe
+          - page: Voice input
+            path: docs/pages/chat/voice-input.mdx
+            icon: fa-solid fa-microphone
+          - page: Prompt enhancer
+            path: docs/pages/chat/prompt-enhancer.mdx
+            icon: fa-solid fa-wand-magic-sparkles
           - page: Supported file types
             path: docs/pages/chat/supported-file-types.mdx
             icon: fa-solid fa-paperclip
@@ -51,6 +88,11 @@ navigation:
           - page: Long context notice
             path: docs/pages/chat/long-context-notice.mdx
             icon: fa-solid fa-triangle-exclamation
+      - section: Account
+        contents:
+          - page: Appearance
+            path: docs/pages/account/appearance.mdx
+            icon: fa-solid fa-moon
       - section: Changelog
         contents:
           - changelog: docs/changelog

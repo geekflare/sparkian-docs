@@ -7,30 +7,25 @@ slug: sparks
 Every Sparkian account runs on **Sparks**. It is a credit balance that gets deducted with every message you send, instead of billing you by raw token count. This keeps usage predictable, since the cost of a request depends on the model and content you use rather than an opaque per-token rate.
 
 <Note>
-The exact Spark cost for each model is shown live on that model's detail panel inside Sparkian, so you always know the price before you send a message.
+The estimated Spark cost for each model is shown live on that model's detail panel inside Sparkian, so you have a good idea of the price before you send a message.
 </Note>
 
 <Frame caption="Sparks">
   <img src="https://cdn.sparkian.com/docs/sparks-model-details.png" alt="Sparks"/>
 </Frame>
 
-## How Sparks are deducted
+## How Sparks are estimated
 
-Each request is priced by **model tier**, and the listed cost covers up to **10,000 tokens**. This includes your message, the AI's response, any retained chat history, and attachments, all combined.
+Each model's detail panel shows a starting cost, like **"1+ Sparks / Request"** or **"25+ Sparks / Request"**. The **+** means this is an estimate, not a fixed price. Sparkian calculates your actual Spark cost based on real usage for that request, not a flat rate per model.
 
-## When requests exceed 10,000 tokens
+**Examples from the model picker:**
 
-If a request's total token count goes over the 10,000-token baseline, a multiplier is applied to the base cost:
+- Qwen 3.5 Flash (a Lite, general-purpose model) → **1+ Sparks / Request**
+- Claude Opus 5 (an Advanced, reasoning/coding model) → **25+ Sparks / Request**
 
-```
-multiplier = (total tokens / 10,000)
-```
+## Why your actual cost can be higher than the estimate
 
-**Examples:**
-
-- A Lite model request under 10K tokens → **2 Spark**
-- An Advanced model request with 25,000 tokens of chat history → 15 × 3 = **45 Sparks**
-- A large file attached to a Lite model request totaling 40,000 tokens → 2 × 8 = **4 Sparks**
+The final Spark cost scales with how much your request actually processes like your message, the AI's response, any retained [chat history](/memory-and-context), and attachments, all combined. A short, simple message will land close to the model's listed estimate; a request with a long conversation history or large attachments will cost more, since there's more for the model to read and respond to.
 
 ## Knowledge Base fee
 

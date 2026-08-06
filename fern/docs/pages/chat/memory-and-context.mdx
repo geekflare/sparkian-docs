@@ -8,11 +8,20 @@ AI models don't retain memory between requests on their own. So, with every new 
 
 ## Default retention
 
-By default, Sparkian includes the **previous 10 messages** with every request. This balances continuity with cost — enough context to keep the conversation coherent, without pulling in more than necessary.
+By default, Sparkian includes the **previous 20 messages** with every request. This balances continuity with cost — enough context to keep the conversation coherent, without pulling in more than necessary.
 
 ## Customizing memory
 
-You can adjust how many prior messages are retained from **Chat Settings**, anywhere from **0 to 50 messages**.
+You can adjust how many prior messages are retained from **Chat settings → Memory & context** (open it from the **+** tools menu in the message box, or type `/settings`), anywhere from **0 to 50 messages**.
+
+<iframe
+  src="https://www.youtube.com/embed/sWnVCP1s0G4?si=dC8UBSEpM9ZquokF"
+  width="100%"
+  height="450"
+  frameBorder="0"
+  allowFullScreen
+></iframe>
+
 
 <Note>
 Retaining more messages improves continuity but increases the token count of every request, which can raise the Spark cost per message. See [Sparks (credit system)](/sparks).
