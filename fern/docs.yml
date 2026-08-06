@@ -58,6 +58,9 @@ navigation:
           - page: Chat response actions
             path: docs/pages/chat/chat-response-actions.mdx
             icon: fa-solid fa-message
+          - page: Editing a message
+            path: docs/pages/chat/edit-a-message.mdx
+            icon: fa-solid fa-pen
           - page: Sharing a chat
             path: docs/pages/chat/share-a-chat.mdx
             icon: fa-solid fa-share-nodes
@@ -70,6 +73,12 @@ navigation:
           - page: Web search and URL read
             path: docs/pages/chat/web-search-and-url-read.mdx
             icon: fa-solid fa-globe
+          - page: HTML and SVG preview
+            path: docs/pages/chat/html-and-svg-preview.mdx
+            icon: fa-solid fa-code
+          - page: Mermaid diagrams
+            path: docs/pages/chat/mermaid-diagrams.mdx
+            icon: fa-solid fa-sitemap
           - page: Voice input
             path: docs/pages/chat/voice-input.mdx
             icon: fa-solid fa-microphone

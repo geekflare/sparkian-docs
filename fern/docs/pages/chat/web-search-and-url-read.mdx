@@ -10,13 +10,16 @@ Models don't know about anything after their training cutoff, and can't see a sp
   <img src="https://cdn.sparkian.com/docs/chat-tools-menu.png" alt="Add tools and actions menu"/>
 </Frame>
 
-## Web search
+## Automatic by default
 
-Turns on live web search for the conversation, so responses can pull in current information instead of relying only on the model's training data. Toggle it from the **+** (Add tools and actions) menu, or type `/search` in the message box.
+You don't need to turn these on for them to work. Sparkian looks at your query and decides on its own whether it needs fresh information from the web or the content of a specific page, and triggers the right tool automatically. A question like "what's the latest AI news" triggers a web search on its own; pasting a link and asking about it triggers a URL read.
 
-## URL read
+## Turning a tool on manually
 
-Fetches and reads the content of a URL you share, so the model can answer questions about that specific page. Toggle it the same way, or type `/url`.
+You can also force a tool on for the whole conversation from the **+** (Add tools and actions) menu:
+
+- **Web search** — pulls in current information from the web instead of relying only on the model's training data. Toggle it, or type `/search`.
+- **URL read** — fetches and reads the content of a URL you share, so the model can answer questions about that specific page. Toggle it, or type `/url`.
 
 ## Related
 
