@@ -123,8 +123,8 @@ theme:
   page-actions: toolbar
   footer-nav: minimal
 logo:
-  dark: docs/assets/logo-dark.svg
-  light: docs/assets/logo-light.svg
+  dark: logo-transparent.svg
+  light: logo-transparent.svg
   height: 25
   href: https://docs.sparkian.com/
 favicon: favicon.png
