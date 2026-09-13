@@ -26,6 +26,9 @@ navigation:
           - page: Welcome
             path: docs/pages/welcome.mdx
             icon: fa-solid fa-house
+          - page: Guest mode
+            path: docs/pages/guest-mode.mdx
+            icon: fa-solid fa-user-clock
           - page: Support
             path: docs/pages/support.mdx
             icon: fa-solid fa-headset
@@ -41,14 +44,31 @@ navigation:
             icon: fa-solid fa-cube
       - section: Billing
         contents:
+          - page: Plans
+            path: docs/pages/billing/plans.mdx
+            icon: fa-solid fa-layer-group
           - page: Payment methods
             path: docs/pages/billing/payment-methods.mdx
             icon: fa-solid fa-credit-card
           - page: Sparks (credit system)
             path: docs/pages/billing/sparks.mdx
             icon: fa-solid fa-bolt
+      - section: Library
+        contents:
+          - page: Library
+            path: docs/pages/library/overview.mdx
+            icon: fa-solid fa-book-open
+          - page: Knowledge base
+            path: docs/pages/library/knowledge-base.mdx
+            icon: fa-solid fa-database
+          - page: Canvas and artifacts
+            path: docs/pages/library/canvas.mdx
+            icon: fa-solid fa-swatchbook
       - section: Chat
         contents:
+          - page: Creating images
+            path: docs/pages/chat/create-image.mdx
+            icon: fa-solid fa-image
           - page: Multi-model chat
             path: docs/pages/chat/multi-model-chat.mdx
             icon: fa-solid fa-table-columns

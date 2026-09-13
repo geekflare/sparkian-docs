@@ -1,1 +1,16 @@
 node_modules
+
+# Local Claude Code state — never publish (permissions, local settings, scratch)
+.claude/
+.mcp.json
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
