@@ -119,9 +119,9 @@ navigation:
             icon: fa-solid fa-triangle-exclamation
       - section: Account
         contents:
-          - page: Appearance
-            path: docs/pages/account/appearance.mdx
-            icon: fa-solid fa-moon
+          - page: Account settings
+            path: docs/pages/account/settings.mdx
+            icon: fa-solid fa-gear
       - section: Changelog
         contents:
           - changelog: docs/changelog
