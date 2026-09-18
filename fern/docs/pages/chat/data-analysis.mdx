@@ -1,0 +1,37 @@
+---
+title: Data analysis and charts
+subtitle: Sparkian runs real calculations instead of guessing at numbers.
+slug: data-analysis
+---
+
+When a question needs actual computation, grouping and summarizing data, running statistics, plotting a trend, Sparkian detects that and runs Python behind the scenes to work out the real answer.
+
+<Frame caption="A data analysis response with a rendered chart">
+  <img src="https://cdn.sparkian.com/docs/data-analysis.png" alt="A data analysis response with a rendered chart"/>
+</Frame>
+
+## What triggers it
+
+This is automatic, based on intent. Asking for something that needs visualization, calculation, or chart analysis is enough for Sparkian to reach for Python on its own.
+
+## Supported data
+
+Upload a CSV or Excel (`.xlsx`) file, or just paste data directly into your message, see [supported file types](/supported-file-types) for the full list of what you can attach.
+
+## Reviewing the work
+
+Each response that used this shows a collapsible **Ran Python · N calculation(s)** step above the answer. Expand it to see the exact code that ran and its output.
+
+<Note>
+If a calculation errors, Sparkian automatically retries with a fix. You'll see more than one calculation listed on responses where that happened.
+</Note>
+
+## Charts
+
+Charts render inline as part of the response, with their own copy and download actions, same as [Mermaid diagrams](/mermaid-diagrams).
+
+## Related
+
+- [Supported file types](/supported-file-types)
+- [Mermaid diagrams](/mermaid-diagrams)
+- [Chat response actions](/chat-response-actions)

@@ -99,6 +99,9 @@ navigation:
           - page: Mermaid diagrams
             path: docs/pages/chat/mermaid-diagrams.mdx
             icon: fa-solid fa-sitemap
+          - page: Data analysis and charts
+            path: docs/pages/chat/data-analysis.mdx
+            icon: fa-solid fa-chart-line
           - page: Voice input
             path: docs/pages/chat/voice-input.mdx
             icon: fa-solid fa-microphone
