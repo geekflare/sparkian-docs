@@ -125,6 +125,9 @@ navigation:
           - page: Account settings
             path: docs/pages/account/settings.mdx
             icon: fa-solid fa-gear
+          - page: Analytics
+            path: docs/pages/account/analytics.mdx
+            icon: fa-solid fa-chart-pie
       - section: Changelog
         contents:
           - changelog: docs/changelog
