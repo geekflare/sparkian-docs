@@ -128,6 +128,9 @@ navigation:
           - page: Analytics
             path: docs/pages/account/analytics.mdx
             icon: fa-solid fa-chart-pie
+          - page: Personal memory
+            path: docs/pages/account/personal-memory.mdx
+            icon: fa-solid fa-brain
       - section: Changelog
         contents:
           - changelog: docs/changelog

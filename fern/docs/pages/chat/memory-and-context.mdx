@@ -4,28 +4,39 @@ subtitle: How Sparkian keeps track of your conversation.
 slug: memory-and-context
 ---
 
-AI models don't retain memory between requests on their own. So, with every new message, Sparkian sends along your recent conversation history to keep the reply relevant to what you've already discussed. How much history is included depends on your chat settings and the model's context window.
+AI models don't retain memory between requests on their own. So, with every new message, Sparkian sends along your recent conversation history to keep the reply relevant to what you've already discussed. How much history is included, and in what form, depends on your chat settings and the selected model's context window.
 
-## Default retention
-
-By default, Sparkian includes the **previous 20 messages** with every request. This balances continuity with cost — enough context to keep the conversation coherent, without pulling in more than necessary.
-
-## Customizing memory
-
-You can adjust how many prior messages are retained from **Chat settings → Memory & context** (open it from the **+** tools menu in the message box, or type `/settings`), anywhere from **0 to 50 messages**.
+Open **Chat settings** from the **+** tools menu in the message box (or type `/settings`) to adjust this for the current conversation.
 
 <iframe
-  src="https://www.youtube.com/embed/sWnVCP1s0G4?si=dC8UBSEpM9ZquokF"
+  src="https://www.youtube.com/embed/DYBZimDNhzw?si=CKEbUMpFm1-Y0yDH"
   width="100%"
-  height="450"
+  height="350"
   frameBorder="0"
   allowFullScreen
 ></iframe>
 
+## Context mode
+
+Under **Conversation context**, choose how Sparkian handles older messages:
+
+- **Smart** (default) — summarizes older messages, which can use fewer Sparks in long chats
+- **Exact** — sends only your recent messages, exactly as written, with no summarizing
+
+## Recent messages
+
+The **Recent messages** slider (0–50, default 20) works a little differently depending on the mode:
+
+- In **Exact** mode, it's a hard cap — only this many previous messages are sent.
+- In **Smart** mode, it's the number kept exact; Sparkian can include more than this before summarizing the rest.
 
 <Note>
-Retaining more messages improves continuity but increases the token count of every request, which can raise the Spark cost per message. See [Sparks (credit system)](/sparks).
+Retaining more messages improves continuity but can increase the Spark cost per message, since there's more for the model to read. See [Sparks (credit system)](/sparks).
 </Note>
+
+## Personal memory
+
+Context mode and Recent messages only apply within a single conversation. For Sparkian to remember details about you across separate chats, see [Personal memory](/personal-memory).
 
 ## Long conversations
 
