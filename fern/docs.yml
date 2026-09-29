@@ -78,6 +78,9 @@ navigation:
           - page: Chat response actions
             path: docs/pages/chat/chat-response-actions.mdx
             icon: fa-solid fa-message
+          - page: Jumping between prompts
+            path: docs/pages/chat/conversation-prompts.mdx
+            icon: fa-solid fa-list-ul
           - page: Editing a message
             path: docs/pages/chat/edit-a-message.mdx
             icon: fa-solid fa-pen
